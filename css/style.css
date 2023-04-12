@@ -1,3 +1,186 @@
 body {
-    font-family: "Maven Pro", "Noto Sans KR", sans-serif;
+    font-family: "Maven Pro","Noto Sans KR",Sans-serif;
+}
+
+body::before {
+    content:"";
+    display: block;
+    width: 100%;
+    height: 1px;
+    background: #f9c02d;
+    position: absolute;
+    left: 0;
+    top: 210px;
+}
+.header-wrap {
+    max-width: 1190px;
+    margin : 0 auto;
+}
+
+.header-top {
+    width: 100%;
+    position: relative;
+    height: 210px;
+}
+
+.links {
+    position: absolute;
+    left: 0;
+    top: 70px;
+}
+
+.links a {
+    padding : 0 3px;
+    color : #000;
+    font-weight: 700;
+    opacity: 50%;
+    transition: all 0.4s;
+}
+
+.links a:hover {
+    color : #f9c02d;
+    opacity: 100%;
+}
+
+.main-logo {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    margin-left: -150px;
+}
+
+.sns {
+    position: absolute;
+    right : 0;
+    top: 70px;
+}
+
+.sns img {
+    padding : 0 3px;
+}
+
+nav {
+    border-top: 1px solid #f9c02d;
+    border-bottom: 1px solid #f9c02d;
+    position: relative;
+}
+
+#gnb {
+    width: 400px;
+    margin : 0 auto;
+    text-align: center;
+}
+
+#gnb li {
+    display: inline-block;
+    margin : 20px 8px;
+}
+
+#gnb li a {
+    font-size: 1.125rem;
+    font-weight: 700; /* 단위없는 숫자값 or bold, bloder, thin같은 키워드 사용*/
+    color : #f9c02d;
+    opacity: 50%;
+    transition: all .4s;
+}
+
+#gnb li a:hover {
+    color : #000;
+    opacity: 100%;
+}
+
+.youtube {
+    position: relative;
+    padding-bottom: 56.25%;
+}
+
+#movie { 
+    position: absolute;
+    width:100%;
+    height : 100%;
+    left:0;
+    top:0;
+}
+
+.main-character {
+    position:absolute;
+    left : 50%;
+    margin-left : -189px;
+    bottom: -170px;
+}
+
+.article-title {
+    text-align: center;
+    margin : 150px 0 50px 0;
+    font-size: 30px;
+    text-transform: capitalize;
+    font-weight: 900;
+    color: #f9c02d;
+}
+
+.chars {
+    max-width: 926px;
+    margin : 50px auto;
+    display: flow-root;
+    overflow : hidden;
+    font-size: 0;
+}
+
+.chars li {
+    float : left;
+}
+
+.chars li img {
+    border : 1px solid #f9c02d;
+}
+
+aside {
+    background: #f9c02d;
+}
+
+.event {
+    max-width: 920px;
+    margin : 100px auto;
+}
+
+
+.footer-wrap {
+    max-width: 1190px;
+    margin : 0 auto;
+    position: relative;
+}
+
+.extra-links li {
+    display: inline-block;
+}
+
+.extra-links li a {
+    font-size: 0.9375rem;
+    color: #888;
+}
+
+.copyright {
+    font-size: 0.8875rem;
+}
+
+.sub-logo {
+    position: absolute;
+    right:0;
+    top:0;
+}
+
+.char-title {
+    margin : 20px 0;
+    text-align: center;
+    font-size: 35px;
+    font-weight: 900;
+}
+
+.char-list {
+    max-width:1190px;
+}
+
+.char-list img {
+    width: 350px;
+    height: 400px;
 }
