@@ -2,7 +2,7 @@ body {
     font-family: "Maven Pro","Noto Sans KR",Sans-serif;
 }
 
-body::before {
+/* body::before {
     content:"";
     display: block;
     width: 100%;
@@ -13,14 +13,16 @@ body::before {
     top: 210px;
 }
 .header-wrap {
-    max-width: 1190px;
-    margin : 0 auto;
-}
+    /* max-width: 1190px; */
+
 
 .header-top {
+    margin : 0 auto;
+    max-width: 1190px;
     width: 100%;
     position: relative;
     height: 210px;
+    top: -3px;
 }
 
 .links {
@@ -63,6 +65,7 @@ nav {
     border-top: 1px solid #f9c02d;
     border-bottom: 1px solid #f9c02d;
     position: relative;
+    overflow: hidden;
 }
 
 #gnb {
@@ -178,6 +181,7 @@ aside {
 
 .char-list {
     max-width:1190px;
+    margin: 0 auto;
 }
 
 .char-list img {
