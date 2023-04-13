@@ -1,3 +1,7 @@
+html {
+    scroll-behavior: smooth;
+  }
+
 body {
     font-family: "Maven Pro","Noto Sans KR",Sans-serif;
 }
@@ -185,6 +189,48 @@ aside {
 }
 
 .char-list img {
+    float:left;
     width: 350px;
     height: 400px;
+}
+
+.char-list li {
+    overflow: hidden;
+    margin: 50px 0;
+}
+
+.char-list h3 {
+    font-size: 1.75rem;
+    font-weight: 900;
+    margin : 0 0 30px 0;
+    text-align: center;
+    color : #f9c02d;
+}
+
+.char-list p {
+    font-size : 1.525rem;
+    margin : 20px 0;
+}
+.info-img {
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.info-img img{
+    width : 500px;
+    height: 500px;
+}
+
+.material-symbols-outlined {
+    font-variation-settings:
+    'FILL' 0,
+    'wght' 400,
+    'GRAD' 0,
+    'opsz' 48
+  }
+
+.scroll {
+    position: fixed;
+    right:5%;
+    bottom: 5%;
 }
